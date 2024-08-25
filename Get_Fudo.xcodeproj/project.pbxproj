@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C265D71E2C7A11AE00908E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D71D2C7A11AE00908E1B /* AppDelegate.swift */; };
+		C265D7202C7A11AE00908E1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D71F2C7A11AE00908E1B /* SceneDelegate.swift */; };
+		C265D7222C7A11AE00908E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D7212C7A11AE00908E1B /* ViewController.swift */; };
+		C265D7252C7A11AE00908E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C265D7232C7A11AE00908E1B /* Main.storyboard */; };
+		C265D7272C7A11AF00908E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C265D7262C7A11AF00908E1B /* Assets.xcassets */; };
+		C265D72A2C7A11AF00908E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C265D7282C7A11AF00908E1B /* LaunchScreen.storyboard */; };
+		C265D7352C7A11B000908E1B /* Get_FudoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D7342C7A11B000908E1B /* Get_FudoTests.swift */; };
+		C265D73F2C7A11B000908E1B /* Get_FudoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D73E2C7A11B000908E1B /* Get_FudoUITests.swift */; };
+		C265D7412C7A11B000908E1B /* Get_FudoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D7402C7A11B000908E1B /* Get_FudoUITestsLaunchTests.swift */; };
+		C265D7532C7A121100908E1B /* Get_Fudo_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D7522C7A121100908E1B /* Get_Fudo_Model.swift */; };
+		C265D7552C7A135C00908E1B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D7542C7A135C00908E1B /* APIManager.swift */; };
+		C265D7582C7A137500908E1B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C265D7572C7A137500908E1B /* Kingfisher */; };
+		C265D75B2C7A162E00908E1B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C265D75A2C7A162E00908E1B /* Alamofire */; };
+		C265D75D2C7A162E00908E1B /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = C265D75C2C7A162E00908E1B /* AlamofireDynamic */; };
+		C265D75F2C7A168F00908E1B /* GetFudoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D75E2C7A168F00908E1B /* GetFudoViewModel.swift */; };
+		C265D7612C7A16E100908E1B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D7602C7A16E100908E1B /* Helper.swift */; };
+		C265D7642C7A2F1800908E1B /* FoodTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C265D7622C7A2F1800908E1B /* FoodTVCell.swift */; };
+		C265D7652C7A2F1800908E1B /* FoodTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C265D7632C7A2F1800908E1B /* FoodTVCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C265D7312C7A11B000908E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C265D7122C7A11AD00908E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C265D7192C7A11AD00908E1B;
+			remoteInfo = Get_Fudo;
+		};
+		C265D73B2C7A11B000908E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C265D7122C7A11AD00908E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C265D7192C7A11AD00908E1B;
+			remoteInfo = Get_Fudo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C265D71A2C7A11AE00908E1B /* Get_Fudo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Get_Fudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C265D71D2C7A11AE00908E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C265D71F2C7A11AE00908E1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C265D7212C7A11AE00908E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C265D7242C7A11AE00908E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C265D7262C7A11AF00908E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C265D7292C7A11AF00908E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C265D72B2C7A11AF00908E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C265D7302C7A11B000908E1B /* Get_FudoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Get_FudoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C265D7342C7A11B000908E1B /* Get_FudoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_FudoTests.swift; sourceTree = "<group>"; };
+		C265D73A2C7A11B000908E1B /* Get_FudoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Get_FudoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C265D73E2C7A11B000908E1B /* Get_FudoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_FudoUITests.swift; sourceTree = "<group>"; };
+		C265D7402C7A11B000908E1B /* Get_FudoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_FudoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C265D7522C7A121100908E1B /* Get_Fudo_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_Fudo_Model.swift; sourceTree = "<group>"; };
+		C265D7542C7A135C00908E1B /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C265D75E2C7A168F00908E1B /* GetFudoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFudoViewModel.swift; sourceTree = "<group>"; };
+		C265D7602C7A16E100908E1B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		C265D7622C7A2F1800908E1B /* FoodTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTVCell.swift; sourceTree = "<group>"; };
+		C265D7632C7A2F1800908E1B /* FoodTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTVCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C265D7172C7A11AD00908E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C265D7582C7A137500908E1B /* Kingfisher in Frameworks */,
+				C265D75D2C7A162E00908E1B /* AlamofireDynamic in Frameworks */,
+				C265D75B2C7A162E00908E1B /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C265D72D2C7A11B000908E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C265D7372C7A11B000908E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C265D7112C7A11AD00908E1B = {
+			isa = PBXGroup;
+			children = (
+				C265D71C2C7A11AE00908E1B /* Get_Fudo */,
+				C265D7332C7A11B000908E1B /* Get_FudoTests */,
+				C265D73D2C7A11B000908E1B /* Get_FudoUITests */,
+				C265D71B2C7A11AE00908E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C265D71B2C7A11AE00908E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C265D71A2C7A11AE00908E1B /* Get_Fudo.app */,
+				C265D7302C7A11B000908E1B /* Get_FudoTests.xctest */,
+				C265D73A2C7A11B000908E1B /* Get_FudoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C265D71C2C7A11AE00908E1B /* Get_Fudo */ = {
+			isa = PBXGroup;
+			children = (
+				C265D7512C7A11EB00908E1B /* Services */,
+				C265D7502C7A11E400908E1B /* ViewController */,
+				C265D74F2C7A11DE00908E1B /* View */,
+				C265D74E2C7A11CE00908E1B /* VIewModel */,
+				C265D74D2C7A11C700908E1B /* Model */,
+				C265D72B2C7A11AF00908E1B /* Info.plist */,
+			);
+			path = Get_Fudo;
+			sourceTree = "<group>";
+		};
+		C265D7332C7A11B000908E1B /* Get_FudoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C265D7342C7A11B000908E1B /* Get_FudoTests.swift */,
+			);
+			path = Get_FudoTests;
+			sourceTree = "<group>";
+		};
+		C265D73D2C7A11B000908E1B /* Get_FudoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C265D73E2C7A11B000908E1B /* Get_FudoUITests.swift */,
+				C265D7402C7A11B000908E1B /* Get_FudoUITestsLaunchTests.swift */,
+			);
+			path = Get_FudoUITests;
+			sourceTree = "<group>";
+		};
+		C265D74D2C7A11C700908E1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C265D7522C7A121100908E1B /* Get_Fudo_Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C265D74E2C7A11CE00908E1B /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C265D75E2C7A168F00908E1B /* GetFudoViewModel.swift */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		C265D74F2C7A11DE00908E1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C265D7232C7A11AE00908E1B /* Main.storyboard */,
+				C265D7262C7A11AF00908E1B /* Assets.xcassets */,
+				C265D7282C7A11AF00908E1B /* LaunchScreen.storyboard */,
+				C265D7622C7A2F1800908E1B /* FoodTVCell.swift */,
+				C265D7632C7A2F1800908E1B /* FoodTVCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C265D7502C7A11E400908E1B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C265D71D2C7A11AE00908E1B /* AppDelegate.swift */,
+				C265D71F2C7A11AE00908E1B /* SceneDelegate.swift */,
+				C265D7212C7A11AE00908E1B /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C265D7512C7A11EB00908E1B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C265D7542C7A135C00908E1B /* APIManager.swift */,
+				C265D7602C7A16E100908E1B /* Helper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C265D7192C7A11AD00908E1B /* Get_Fudo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C265D7442C7A11B000908E1B /* Build configuration list for PBXNativeTarget "Get_Fudo" */;
+			buildPhases = (
+				C265D7162C7A11AD00908E1B /* Sources */,
+				C265D7172C7A11AD00908E1B /* Frameworks */,
+				C265D7182C7A11AD00908E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Get_Fudo;
+			packageProductDependencies = (
+				C265D7572C7A137500908E1B /* Kingfisher */,
+				C265D75A2C7A162E00908E1B /* Alamofire */,
+				C265D75C2C7A162E00908E1B /* AlamofireDynamic */,
+			);
+			productName = Get_Fudo;
+			productReference = C265D71A2C7A11AE00908E1B /* Get_Fudo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C265D72F2C7A11B000908E1B /* Get_FudoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C265D7472C7A11B000908E1B /* Build configuration list for PBXNativeTarget "Get_FudoTests" */;
+			buildPhases = (
+				C265D72C2C7A11B000908E1B /* Sources */,
+				C265D72D2C7A11B000908E1B /* Frameworks */,
+				C265D72E2C7A11B000908E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C265D7322C7A11B000908E1B /* PBXTargetDependency */,
+			);
+			name = Get_FudoTests;
+			productName = Get_FudoTests;
+			productReference = C265D7302C7A11B000908E1B /* Get_FudoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C265D7392C7A11B000908E1B /* Get_FudoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C265D74A2C7A11B000908E1B /* Build configuration list for PBXNativeTarget "Get_FudoUITests" */;
+			buildPhases = (
+				C265D7362C7A11B000908E1B /* Sources */,
+				C265D7372C7A11B000908E1B /* Frameworks */,
+				C265D7382C7A11B000908E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C265D73C2C7A11B000908E1B /* PBXTargetDependency */,
+			);
+			name = Get_FudoUITests;
+			productName = Get_FudoUITests;
+			productReference = C265D73A2C7A11B000908E1B /* Get_FudoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C265D7122C7A11AD00908E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					C265D7192C7A11AD00908E1B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					C265D72F2C7A11B000908E1B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = C265D7192C7A11AD00908E1B;
+					};
+					C265D7392C7A11B000908E1B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = C265D7192C7A11AD00908E1B;
+					};
+				};
+			};
+			buildConfigurationList = C265D7152C7A11AD00908E1B /* Build configuration list for PBXProject "Get_Fudo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C265D7112C7A11AD00908E1B;
+			packageReferences = (
+				C265D7562C7A137500908E1B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C265D7592C7A162E00908E1B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = C265D71B2C7A11AE00908E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C265D7192C7A11AD00908E1B /* Get_Fudo */,
+				C265D72F2C7A11B000908E1B /* Get_FudoTests */,
+				C265D7392C7A11B000908E1B /* Get_FudoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C265D7182C7A11AD00908E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C265D72A2C7A11AF00908E1B /* LaunchScreen.storyboard in Resources */,
+				C265D7652C7A2F1800908E1B /* FoodTVCell.xib in Resources */,
+				C265D7272C7A11AF00908E1B /* Assets.xcassets in Resources */,
+				C265D7252C7A11AE00908E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C265D72E2C7A11B000908E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C265D7382C7A11B000908E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C265D7162C7A11AD00908E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C265D7532C7A121100908E1B /* Get_Fudo_Model.swift in Sources */,
+				C265D7612C7A16E100908E1B /* Helper.swift in Sources */,
+				C265D7222C7A11AE00908E1B /* ViewController.swift in Sources */,
+				C265D7552C7A135C00908E1B /* APIManager.swift in Sources */,
+				C265D75F2C7A168F00908E1B /* GetFudoViewModel.swift in Sources */,
+				C265D7642C7A2F1800908E1B /* FoodTVCell.swift in Sources */,
+				C265D71E2C7A11AE00908E1B /* AppDelegate.swift in Sources */,
+				C265D7202C7A11AE00908E1B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C265D72C2C7A11B000908E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C265D7352C7A11B000908E1B /* Get_FudoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C265D7362C7A11B000908E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C265D7412C7A11B000908E1B /* Get_FudoUITestsLaunchTests.swift in Sources */,
+				C265D73F2C7A11B000908E1B /* Get_FudoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C265D7322C7A11B000908E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C265D7192C7A11AD00908E1B /* Get_Fudo */;
+			targetProxy = C265D7312C7A11B000908E1B /* PBXContainerItemProxy */;
+		};
+		C265D73C2C7A11B000908E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C265D7192C7A11AD00908E1B /* Get_Fudo */;
+			targetProxy = C265D73B2C7A11B000908E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C265D7232C7A11AE00908E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C265D7242C7A11AE00908E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C265D7282C7A11AF00908E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C265D7292C7A11AF00908E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C265D7422C7A11B000908E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C265D7432C7A11B000908E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C265D7452C7A11B000908E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Get_Fudo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.Office.Outlook.Get-Fudo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C265D7462C7A11B000908E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Get_Fudo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.Office.Outlook.Get-Fudo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C265D7482C7A11B000908E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.Office.Outlook.Get-FudoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Get_Fudo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Get_Fudo";
+			};
+			name = Debug;
+		};
+		C265D7492C7A11B000908E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.Office.Outlook.Get-FudoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Get_Fudo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Get_Fudo";
+			};
+			name = Release;
+		};
+		C265D74B2C7A11B000908E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.Office.Outlook.Get-FudoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Get_Fudo;
+			};
+			name = Debug;
+		};
+		C265D74C2C7A11B000908E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.Office.Outlook.Get-FudoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Get_Fudo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C265D7152C7A11AD00908E1B /* Build configuration list for PBXProject "Get_Fudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C265D7422C7A11B000908E1B /* Debug */,
+				C265D7432C7A11B000908E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C265D7442C7A11B000908E1B /* Build configuration list for PBXNativeTarget "Get_Fudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C265D7452C7A11B000908E1B /* Debug */,
+				C265D7462C7A11B000908E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C265D7472C7A11B000908E1B /* Build configuration list for PBXNativeTarget "Get_FudoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C265D7482C7A11B000908E1B /* Debug */,
+				C265D7492C7A11B000908E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C265D74A2C7A11B000908E1B /* Build configuration list for PBXNativeTarget "Get_FudoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C265D74B2C7A11B000908E1B /* Debug */,
+				C265D74C2C7A11B000908E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C265D7562C7A137500908E1B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+		C265D7592C7A162E00908E1B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C265D7572C7A137500908E1B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C265D7562C7A137500908E1B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C265D75A2C7A162E00908E1B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C265D7592C7A162E00908E1B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C265D75C2C7A162E00908E1B /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C265D7592C7A162E00908E1B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C265D7122C7A11AD00908E1B /* Project object */;
+}
